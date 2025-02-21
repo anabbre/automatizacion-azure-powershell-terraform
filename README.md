@@ -64,7 +64,8 @@ Una vez que revises el plan, puedes ejecutar el siguiente comando para aplicar l
 ```
 terraform apply
 ```
-Terraform te pedirá confirmación para proceder. Escribe yes y presiona enter.    
+Terraform te pedirá confirmación para proceder. Escribe yes y presiona enter.  
+
 ![yes](https://github.com/user-attachments/assets/905130d3-7d6b-4d42-ae83-6dec8565bd82)
 
 
@@ -75,11 +76,15 @@ Terraform te pedirá confirmación para proceder. Escribe yes y presiona enter.
 - Una **red virtual** con una **subred**.
 - Una **máquina virtual de Windows**.
 
-![Grupoderecursos3](https://github.com/user-attachments/assets/e58cc4f5-87eb-44c5-8364-65ad4fa7ee36)
+![Grupoderecursos3](https://github.com/user-attachments/assets/e58cc4f5-87eb-44c5-8364-65ad4fa7ee36)  
+
+  
 
 
 
 ![VM-Terraform](https://github.com/user-attachments/assets/5c834b90-7520-439a-81c3-eb2be1fb6366)  
+
+  
 
 
 
