@@ -45,7 +45,6 @@ Connect-AzAccount
 ![VM](https://github.com/user-attachments/assets/8cf8aee3-59a6-4b15-876f-9a44319933a9)
 
 
-
 ## Uso de Terraform (automatización en Terraform)  
 
 ### 1. Inicializar el entorno de Terraform  
@@ -76,7 +75,8 @@ Terraform te pedirá confirmación para proceder. Escribe yes y presiona enter.
 - Una **red virtual** con una **subred**.
 - Una **máquina virtual de Windows**.
 
-![Grupoderecursos3](https://github.com/user-attachments/assets/e58cc4f5-87eb-44c5-8364-65ad4fa7ee36)  
+![Grupoderecursos3](https://github.com/user-attachments/assets/e58cc4f5-87eb-44c5-8364-65ad4fa7ee36)   
+
 
   
 
@@ -85,12 +85,13 @@ Terraform te pedirá confirmación para proceder. Escribe yes y presiona enter.
 ![VM-Terraform](https://github.com/user-attachments/assets/5c834b90-7520-439a-81c3-eb2be1fb6366)  
 
   
+  
 
 
 
 ![VM-Terraform2](https://github.com/user-attachments/assets/138673ec-5e54-42d6-b672-e399621c9898)
 
-
+  
 
 
 ## Conclusión
