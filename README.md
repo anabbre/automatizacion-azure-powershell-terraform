@@ -44,8 +44,6 @@ Connect-AzAccount
 
 
 
-  
-
 
 ## Uso de Terraform (automatización en Terraform)  
 
@@ -81,6 +79,7 @@ Terraform te pedirá confirmación para proceder. Escribe yes y presiona enter.
 
 
 ![VM-Terraform](https://github.com/user-attachments/assets/5c834b90-7520-439a-81c3-eb2be1fb6366)  
+
 
 
 ![VM-Terraform2](https://github.com/user-attachments/assets/138673ec-5e54-42d6-b672-e399621c9898)
