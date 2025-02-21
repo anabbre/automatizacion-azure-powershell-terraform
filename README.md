@@ -36,12 +36,13 @@ Connect-AzAccount
 - Un **grupo de recursos**.
 - Una **red virtual** con una **subred**.
 - Una **máquina virtual de Windows**.
+
+
 ![Grupoderecursos1](https://github.com/user-attachments/assets/0406c85e-0e7f-4b6c-aade-f9ec8fca5231)
 
 ![Grupoderecursos2](https://github.com/user-attachments/assets/72ea5b09-4a62-41c0-af83-ad8a6d69f7fa)
 
 ![VM](https://github.com/user-attachments/assets/8cf8aee3-59a6-4b15-876f-9a44319933a9)
-
 
 
 
