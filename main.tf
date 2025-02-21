@@ -1,24 +1,26 @@
-# Proveedor de Azure. Aquí indicamos que vamos a usar el proveedor de Azure
+# Proveedor de Azure. En esta sección indicamos que vamos a usar el proveedor de Azure
 # y configuramos la suscripción que vamos a utilizar con el ID de suscripción de Azure.
 provider "azurerm" {
   features {}  # Esto activa las características básicas del proveedor de Azure
-  subscription_id = "f21de579-f00f-4068-8170-d07c7ba0d49b"  # ID de nuestra suscripción en Azure
+  
+  # Aquí debes poner el ID de tu suscripción de Azure.
+  subscription_id = "tu_id_de_suscripción"  # Sustituir por el ID de tu suscripción
 }
 
 # Creación del grupo de recursos. Un grupo de recursos es un contenedor
 # donde se almacenan los recursos de Azure. Lo hemos llamado "example-resources" 
 # y lo colocamos en la región "East US".
 resource "azurerm_resource_group" "example" {
-  name     = "example-resources"
-  location = "East US"
+  name     = "example-resources"  # Puedes cambiar el nombre del grupo de recursos
+  location = "East US"  # Puedes cambiar la ubicación de la región si lo deseas
 }
 
 # Creamos una red virtual en Azure, la cual actúa como una red privada
 # en la que se pueden agregar máquinas virtuales. En este caso, asignamos un rango de direcciones IP
 # "10.0.0.0/16", y lo asociamos al grupo de recursos y la ubicación previamente definidos.
 resource "azurerm_virtual_network" "example" {
-  name                = "example-network"  # Nombre de la red virtual
-  address_space        = ["10.0.0.0/16"]    # Rango de direcciones IP para la red
+  name                = "example-network"  # Cambiar el nombre de la red virtual
+  address_space        = ["10.0.0.0/16"]    # Cambiar el rango de direcciones IP si es necesario
   location            = azurerm_resource_group.example.location  # Usamos la ubicación del grupo de recursos
   resource_group_name = azurerm_resource_group.example.name  # Asociamos la red al grupo de recursos
 }
@@ -87,7 +89,7 @@ resource "azurerm_virtual_machine" "example" {
   os_profile {
     computer_name  = "hostname"  # Nombre del host de la máquina virtual
     admin_username = "adminuser"  # Nombre de usuario de administrador
-    admin_password = "Password1234!"  # Contraseña de administrador
+    admin_password = var.admin_password  # Aquí se usa una variable para la contraseña de administrador
   }
 
   # Configuración específica para máquinas virtuales Linux
@@ -95,4 +97,3 @@ resource "azurerm_virtual_machine" "example" {
     disable_password_authentication = false  # Habilitamos la autenticación por contraseña
   }
 }
-
