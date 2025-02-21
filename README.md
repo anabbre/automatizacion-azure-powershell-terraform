@@ -18,9 +18,6 @@ Este script de PowerShell monitorea el uso de los recursos del sistema (CPU, RAM
    git clone git clone https://github.com/anabbre/PowerShell-System-Monitoring.git
 
 
-
-
-
 # Automización Azure PowerShell y Terraform
 
 Este proyecto contiene un script en PowerShell para la automatización de la creación de máquinas virtuales y redes virtuales en Azure. El script está diseñado para ayudar en la gestión de recursos de Azure y permitir a los usuarios crear infraestructuras en la nube de manera eficiente. 
@@ -62,22 +59,15 @@ Connect-AzAccount
 - Una **red virtual** con una **subred**.
 - Una **máquina virtual de Windows**.
 
-![image](https://github.com/user-attachments/assets/55c12f54-43a6-4ae7-baab-064934a1c5a3)
+![image](https://github.com/user-attachments/assets/24f86ba0-6eff-4066-86d8-32a6e0514534)  
   
+![image](https://github.com/user-attachments/assets/c0c640e1-36d5-4b1b-bb27-0897b2093f44)
+
+![VM](https://github.com/user-attachments/assets/8cf8aee3-59a6-4b15-876f-9a44319933a9)
 
 
 
-![image](https://github.com/user-attachments/assets/af71e16f-d7e4-497d-a07c-2d54ac81e107)  
-
-
-
-
-![image](https://github.com/user-attachments/assets/feee644e-4289-41fc-adbf-c94536a59661)
-
-
-
-
-![image](https://github.com/user-attachments/assets/fde64924-286d-4717-8dd6-8ffca645cb39)  
+  
 
 
 ## Uso de Terraform (automatización en Terraform)  
@@ -99,7 +89,8 @@ Una vez que revises el plan, puedes ejecutar el siguiente comando para aplicar l
 terraform apply
 ```
 Terraform te pedirá confirmación para proceder. Escribe yes y presiona enter.    
-![image](https://github.com/user-attachments/assets/7ee21779-ca6b-4d89-bfba-e6327a173e8e)
+![yes](https://github.com/user-attachments/assets/905130d3-7d6b-4d42-ae83-6dec8565bd82)
+
 
 
 ### El scritp de Terraform creará los siguientes recursos:  
@@ -107,12 +98,14 @@ Terraform te pedirá confirmación para proceder. Escribe yes y presiona enter.
 - Un **grupo de recursos**.
 - Una **red virtual** con una **subred**.
 - Una **máquina virtual de Windows**.
-![image](https://github.com/user-attachments/assets/5f1c4eb6-c521-40d8-951d-b5f3604c01a8)
 
-![image](https://github.com/user-attachments/assets/06bfd41c-172c-4f21-934d-7bda8a69a4ae)
-  
+![image](https://github.com/user-attachments/assets/f11b7e5b-298b-4690-8c5c-9a50edc2be23)  
 
-![image](https://github.com/user-attachments/assets/804832e8-aa23-461d-807c-ac3fdf2998cf)
+![VM-Terraform](https://github.com/user-attachments/assets/5c834b90-7520-439a-81c3-eb2be1fb6366)  
+
+
+![VM-Terraform2](https://github.com/user-attachments/assets/138673ec-5e54-42d6-b672-e399621c9898)
+
 
 
 
