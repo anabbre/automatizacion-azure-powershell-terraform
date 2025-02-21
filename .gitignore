@@ -7,7 +7,7 @@ terraform-provider-*.exe
 .terraform/
 
 # Ignorar archivos personales como credenciales
-*.ps1
+#*.ps1
 
 # Ignorar archivos de Azure y otros binarios
 *.bak
