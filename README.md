@@ -58,10 +58,9 @@ Connect-AzAccount
 - Un **grupo de recursos**.
 - Una **red virtual** con una **subred**.
 - Una **máquina virtual de Windows**.
+![Grupoderecursos1](https://github.com/user-attachments/assets/0406c85e-0e7f-4b6c-aade-f9ec8fca5231)
 
-![image](https://github.com/user-attachments/assets/24f86ba0-6eff-4066-86d8-32a6e0514534)  
-  
-![image](https://github.com/user-attachments/assets/c0c640e1-36d5-4b1b-bb27-0897b2093f44)
+![Grupoderecursos2](https://github.com/user-attachments/assets/72ea5b09-4a62-41c0-af83-ad8a6d69f7fa)
 
 ![VM](https://github.com/user-attachments/assets/8cf8aee3-59a6-4b15-876f-9a44319933a9)
 
@@ -99,7 +98,9 @@ Terraform te pedirá confirmación para proceder. Escribe yes y presiona enter.
 - Una **red virtual** con una **subred**.
 - Una **máquina virtual de Windows**.
 
-![image](https://github.com/user-attachments/assets/f11b7e5b-298b-4690-8c5c-9a50edc2be23)  
+![Grupoderecursos3](https://github.com/user-attachments/assets/e58cc4f5-87eb-44c5-8364-65ad4fa7ee36)
+
+
 
 ![VM-Terraform](https://github.com/user-attachments/assets/5c834b90-7520-439a-81c3-eb2be1fb6366)  
 
