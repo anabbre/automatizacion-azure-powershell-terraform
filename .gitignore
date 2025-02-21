@@ -1,0 +1,14 @@
+# Ignorar archivos binarios de terraform y proveedores de terraform
+terraform-provider-*.exe
+
+# Ignorar archivos de Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Ignorar archivos personales como credenciales
+*.ps1
+
+# Ignorar archivos de Azure y otros binarios
+*.bak
+
