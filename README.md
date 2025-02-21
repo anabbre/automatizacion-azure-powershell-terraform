@@ -23,8 +23,6 @@ Este script de PowerShell monitorea el uso de los recursos del sistema (CPU, RAM
 Este proyecto contiene un script en PowerShell para la automatización de la creación de máquinas virtuales y redes virtuales en Azure. El script está diseñado para ayudar en la gestión de recursos de Azure y permitir a los usuarios crear infraestructuras en la nube de manera eficiente. 
 
 
-El archivo principal del script es [automizacion_azure.ps1](./automizacion_azure.ps1).  
-
 ## Tecnologías utilizadas:  
 - Powershell
 - Terraform
