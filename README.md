@@ -95,7 +95,7 @@ Terraform te pedirá confirmación para proceder. Escribe yes y presiona enter.
 
 
 ## Conclusión
-Este proyecto proporciona una forma rápida de crear y gestionar infraestructura en Azure mediante PowerShell y Terraform. Puedes mejorar este proyecto añadiendo más recursos de Azure según sea necesario.
+Este proyecto proporciona una forma rápida de crear y gestionar infraestructura en Azure mediante PowerShell y Terraform. 
 
 Si tienes alguna pregunta o sugerencia, no dudes en abrir un **issue** o contactar conmigo.
 
